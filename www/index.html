@@ -7,11 +7,20 @@
     <script src="components/loader.js"></script>
     <link rel="stylesheet" href="components/loader.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="keys.js"></script>
     <script>
+      // NCMB アクセスの準備
+    let ncmb = new NCMB(appKey, clientKey);
     </script>
 </head>
 <body>
+  <h1>古戦場編成保存アプリ</h1>
+  <p style="text-align: right">19RS606 二ノ宮光</p>
+  <div id="button">
+    <button class="btn" onclick="location.href='./new.html'">作成</button>
+    <button class="btn">呼び出し</button>
+  
+  </div>
 	<br />
-    This is a template for Monaca app.
 </body>
 </html>
