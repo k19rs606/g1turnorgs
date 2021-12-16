@@ -6,13 +6,19 @@
     <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
     <link rel="stylesheet" href="components/loader.css">
     <script src="components/loader.js"></script>
+    <script src="keys.js"></script>
     <script>
+      
         //
         // TODO: Write JavaScript code here
         //
+    // NCMB アクセスの準備
+    let ncmb = new NCMB(appKey, clientKey);
     </script>
 </head>
 <body>
-    <!-- TODO: Please edit here -->
+  <h1>編成作成ページ</h1>
+  <div id="button">
+    <button class="btn" onclick="history.back()">戻る</button>
 </body>
 </html>
